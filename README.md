@@ -51,34 +51,34 @@ Asegúrate de tener instalado lo siguiente antes de ejecutar el proyecto:
 ## Instalación y Configuración
 
 * Clonar el repositorio
-
-````text
-git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-cd tu-repositorio
-````
+  
+    ````text
+    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+    cd tu-repositorio
+    ````
 
 * Configurar y ejecutar el Backend (Spring Boot)
 Asegúrate de tener MongoDB en ejecución y verifica las credenciales en backend/src/main/resources/application.properties.
 
-````text
-cd backend
-./mvnw spring-boot:run
-````
+    ````text
+    cd backend
+    ./mvnw spring-boot:run
+    ````
 
 * Ejecutar el Cliente Web (Angular)
 
-````text
-cd ../frontend-angular
-npm install
-ng serve --open
-````
+    ````text
+    cd ../frontend-angular
+    npm install
+    ng serve --open
+    ````
 
 * Ejecutar el Cliente de Escritorio (JavaFX)
 
-````text
-cd ../frontend-javafx
-./mvnw javafx:run
-````
+    ````text
+    cd ../frontend-javafx
+    ./mvnw javafx:run
+    ````
 
 ## Uso de la Aplicación
 
